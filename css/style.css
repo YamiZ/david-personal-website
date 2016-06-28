@@ -9,7 +9,7 @@ header .brand-logo {
 ul.side-nav.fixed li.logo {
     text-align: center;
     margin-top: 32px;
-    margin-bottom: 80px;
+    margin-bottom: 32px;
 }
 
 #logo-container {
@@ -19,6 +19,18 @@ ul.side-nav.fixed li.logo {
 
 #logo-container:hover {
 	background: transparent;
+}
+
+main {
+	padding-top: 5%;
+}
+
+#welcome {
+	display: none;
+}
+
+#welcome h1 {
+	font-weight: lighter;
 }
 
 @media only screen and (max-width : 992px) {
