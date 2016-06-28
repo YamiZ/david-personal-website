@@ -21,8 +21,9 @@ ul.side-nav.fixed li.logo {
 	background: transparent;
 }
 
-main {
-	padding-top: 5%;
+main #welcome {
+	padding-top: 15%;
+    padding-bottom: 25%;
 }
 
 #welcome {
