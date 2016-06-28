@@ -2,6 +2,10 @@ header, main, footer {
 	padding-left: 240px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+}
+
 header .brand-logo {
 	font-weight: lighter;
 }
@@ -21,17 +25,14 @@ ul.side-nav.fixed li.logo {
 	background: transparent;
 }
 
-main #welcome {
-	padding-top: 15%;
-    padding-bottom: 25%;
-}
-
 #welcome {
+    padding-top: 15%;
+    padding-bottom: 15%;
 	display: none;
 }
 
-#welcome h1 {
-	font-weight: lighter;
+#staggered-test li, #image-test {
+    opacity: 0;
 }
 
 @media only screen and (max-width : 992px) {
