@@ -27,11 +27,11 @@ ul.side-nav.fixed li.logo {
 
 #welcome {
     padding-top: 15%;
-    padding-bottom: 15%;
 	display: none;
 }
 
-#education li {
+#education li,
+#experience li {
     opacity: 0;
 }
 

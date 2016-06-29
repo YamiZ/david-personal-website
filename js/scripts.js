@@ -8,7 +8,10 @@ $(document).ready(function(){
 
 //ScrollFire
 var options = [
-    {selector: '#education', offset: 200, callback: function() {
+    {selector: '#experience', offset: 250, callback: function() {
+      Materialize.showStaggeredList("#experience ul");
+    } },
+    {selector: '#education', offset: 250, callback: function() {
       Materialize.showStaggeredList("#education ul");
     } },
 ];
