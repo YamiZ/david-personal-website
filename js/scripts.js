@@ -3,7 +3,7 @@ $(".button-collapse").sideNav();
 
 // Slide and fade up for welcome
 $(document).ready(function(){
-	$("#welcome").fadeIn(1000);
+	$("#welcome").delay(500).fadeIn(1000);
 });
 
 //ScrollFire
