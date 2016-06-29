@@ -30,6 +30,11 @@ ul.side-nav.fixed li.logo {
 	display: none;
 }
 
+#welcome h1,
+#welcome h4 {
+    font-weight: lighter;
+}
+
 #education li,
 #experience li,
 #coreCompetencies li {
