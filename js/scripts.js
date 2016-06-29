@@ -14,5 +14,8 @@ var options = [
     {selector: '#education', offset: 250, callback: function() {
       Materialize.showStaggeredList("#education ul");
     } },
+    {selector: '#coreCompetencies', offset: 250, callback: function() {
+      Materialize.showStaggeredList("#coreCompetencies ul");
+    } },
 ];
 Materialize.scrollFire(options);
