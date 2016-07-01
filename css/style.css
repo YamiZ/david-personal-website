@@ -37,7 +37,8 @@ ul.side-nav.fixed li.logo {
 
 #education li,
 #experience li,
-#coreCompetencies li {
+#coreCompetencies li,
+#contact li {
     opacity: 0;
 }
 

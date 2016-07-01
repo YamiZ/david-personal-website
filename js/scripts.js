@@ -17,5 +17,8 @@ var options = [
     {selector: '#coreCompetencies', offset: 500, callback: function() {
       Materialize.showStaggeredList("#coreCompetencies ul");
     } },
+    {selector: '#contact', offset: 500, callback: function() {
+      Materialize.showStaggeredList("#contact ul");
+    } },
 ];
 Materialize.scrollFire(options);
