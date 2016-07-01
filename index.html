@@ -103,7 +103,7 @@
 			</div>
 			<div id="contact" class="container">
 				<div class="row">
-					<form action="mailto:dave.moran118@gmail.com" method="GET">
+					<form action="mailto:dave.moran118@gmail.com?subject=Let's%20grab%20a%20drink" method="POST" enctype="text/plain">
 						<ul>
 							<li class="col s12">
 								<h3 class="light-blue-text">Get in Touch</h3>
@@ -111,11 +111,11 @@
 							<li class="col s12">
 								<div class="row">
 									<div class="input-field col s6">
-										<input id="firstName" type="text" class="validate">
+										<input id="firstName" type="text" class="validate" name="firstName"><br>
 										<label for="firstName">First Name</label>
 									</div>
 									<div class="input-field col s6">
-										<input id="lastName" type="text" class="validate">
+										<input id="lastName" type="text" class="validate" name="lastName">
 										<label for="lastName">Last Name</label>
 									</div>
 								</div>
@@ -123,7 +123,7 @@
 							<li class="col s12">
 								<div class="row">
 									<div class="input-field col s12">
-										<input id="email" type="email" class="validate">
+										<input id="email" type="email" class="validate" name="email">
 										<label for="email">Email Address</label>
 									</div>
 								</div>
@@ -131,14 +131,14 @@
 							<li class="col s12">
 								<div class="row">
 									<div class="input-field col s12">
-										<textarea id="comments" class="materialize-textarea"></textarea>
+										<textarea id="comments" class="materialize-textarea" name="comments"></textarea>
 										<label for="comments">Questions/Comments</label>
 									</div>
 								</div>
 							</li>
 							<li class="col 12">
 								<div class="row">
-									<button href="mailto:dave.moran118@gmail.com" class="btn light-blue" type="submit" name="action">Submit</button>
+									<button class="btn light-blue" type="submit">Submit</button>
 								</div>
 							</li>
 						</ul>
