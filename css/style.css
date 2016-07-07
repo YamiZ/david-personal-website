@@ -1,3 +1,7 @@
+body {
+    display: none;
+}
+
 header, main, footer {
 	padding-left: 240px;
 }
@@ -25,21 +29,9 @@ ul.side-nav.fixed li.logo {
 	background: transparent;
 }
 
-#welcome {
-    padding-top: 15%;
-	display: none;
-}
-
 #welcome h1,
 #welcome h4 {
     font-weight: lighter;
-}
-
-#education li,
-#experience li,
-#coreCompetencies li,
-#contact li {
-    opacity: 0;
 }
 
 @media only screen and (max-width : 992px) {

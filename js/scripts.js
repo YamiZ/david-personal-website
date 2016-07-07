@@ -3,22 +3,5 @@ $(".button-collapse").sideNav();
 
 // Slide and fade up for welcome
 $(document).ready(function(){
-	$("#welcome").delay(500).fadeIn(1000);
+	$("body").fadeIn(1500);
 });
-
-//ScrollFire
-var options = [
-    {selector: '#experience', offset: 500, callback: function() {
-      Materialize.showStaggeredList("#experience ul");
-    } },
-    {selector: '#education', offset: 500, callback: function() {
-      Materialize.showStaggeredList("#education ul");
-    } },
-    {selector: '#coreCompetencies', offset: 500, callback: function() {
-      Materialize.showStaggeredList("#coreCompetencies ul");
-    } },
-    {selector: '#contact', offset: 500, callback: function() {
-      Materialize.showStaggeredList("#contact ul");
-    } },
-];
-Materialize.scrollFire(options);
