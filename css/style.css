@@ -34,6 +34,11 @@ ul.side-nav.fixed li.logo {
     font-weight: lighter;
 }
 
+.table-of-contents a.active,
+.table-of-contents a:hover {
+    border-left-color: #039be5;
+}
+
 @media only screen and (max-width : 992px) {
     header, main, footer {
     	padding-left: 0;
