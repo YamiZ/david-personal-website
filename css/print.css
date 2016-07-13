@@ -1,0 +1,41 @@
+header {
+	display: none;
+}
+
+#welcome h4,
+.divider,
+#contact,
+#toc,
+footer {
+	display: none;
+}
+
+#welcome > div > h1 {
+	display: inline-block;
+	font-size: 1.8em;
+	margin-bottom: 5px;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-bottom: 0.8rem;
+}
+h4 {
+	font-size: 1.3em;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+p {
+	margin:0;
+}
+
+.row {
+	margin-bottom: 0;
+}
